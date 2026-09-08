@@ -1,0 +1,42 @@
+name: Weekly Fantasy Football Report
+
+on:
+  schedule:
+    - cron: '0 13 * * 2'   # Every Tuesday ~9am ET (13:00 UTC). Adjust for your timezone/DST.
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab anytime
+
+permissions:
+  contents: write
+
+jobs:
+  build-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run analyst script
+        env:
+          LEAGUE_ID: ${{ secrets.LEAGUE_ID }}
+          SEASON_YEAR: ${{ secrets.SEASON_YEAR }}
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+          MY_TEAM_ID: ${{ secrets.MY_TEAM_ID }}
+          N_SIMULATIONS: '10000'
+        run: python analyze.py
+
+      - name: Commit updated report
+        run: |
+          git config user.name "ff-analyst-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/index.html docs/summary.json
+          git diff --staged --quiet || git commit -m "Weekly fantasy football report - $(date +'%Y-%m-%d')"
+          git push
