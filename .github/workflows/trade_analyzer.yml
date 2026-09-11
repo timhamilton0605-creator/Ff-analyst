@@ -1,0 +1,59 @@
+name: Trade Analyzer
+
+on:
+  workflow_dispatch:
+    inputs:
+      team_a_id:
+        description: 'Team A - Team ID'
+        required: true
+      team_a_gives:
+        description: 'Team A sends (comma-separated player names)'
+        required: false
+        default: ''
+      team_b_id:
+        description: 'Team B - Team ID'
+        required: true
+      team_b_gives:
+        description: 'Team B sends (comma-separated player names)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  analyze-trade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run trade analyzer
+        env:
+          LEAGUE_ID: ${{ secrets.LEAGUE_ID }}
+          SEASON_YEAR: ${{ secrets.SEASON_YEAR }}
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+          MY_TEAM_ID: ${{ secrets.MY_TEAM_ID }}
+        run: |
+          python trade_analyzer.py \
+            --team-a-id "${{ inputs.team_a_id }}" \
+            --team-a-gives "${{ inputs.team_a_gives }}" \
+            --team-b-id "${{ inputs.team_b_id }}" \
+            --team-b-gives "${{ inputs.team_b_gives }}"
+
+      - name: Commit result
+        run: |
+          git config user.name "ff-analyst-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/trade_result.html docs/trade_result.json
+          git diff --staged --quiet || git commit -m "Trade analysis - $(date +'%Y-%m-%d %H:%M')"
+          git push
