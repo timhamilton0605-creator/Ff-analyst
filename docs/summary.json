@@ -1,49 +1,182 @@
 {
   "week": 1,
   "avg_wins": {
-    "1": 8.9,
-    "2": 5.69,
-    "3": 5.51,
-    "4": 7.9,
-    "5": 6.1,
-    "6": 5.1,
-    "7": 8.31,
-    "8": 8.49,
+    "1": 8.82,
+    "2": 5.63,
+    "3": 5.58,
+    "4": 8.01,
+    "5": 5.99,
+    "6": 5.18,
+    "7": 8.37,
+    "8": 8.42,
     "9": 6.24,
     "10": 7.76
   },
   "playoff_odds": {
-    "1": 94.5,
-    "2": 43.9,
-    "3": 36.6,
-    "4": 80.3,
-    "5": 46.3,
-    "6": 23.9,
-    "7": 82.1,
-    "8": 82.0,
-    "9": 43.9,
-    "10": 66.6
+    "1": 92.5,
+    "2": 42.5,
+    "3": 37.3,
+    "4": 82.6,
+    "5": 45.7,
+    "6": 24.1,
+    "7": 82.4,
+    "8": 80.8,
+    "9": 44.4,
+    "10": 67.8
   },
-  "waivers": [
-    "Bo Nix",
-    "Matthew Stafford",
-    "Brock Purdy",
-    "Patrick Mahomes",
-    "Kyler Murray",
-    "Jared Goff",
-    "Jordan Love",
-    "Daniel Jones",
-    "Tyler Shough",
-    "C.J. Stroud",
-    "Sam Darnold",
-    "Malik Willis",
-    "Bryce Young",
-    "Geno Smith",
-    "Cam Ward"
-  ],
+  "free_agents": {
+    "QB": [
+      {
+        "name": "Bo Nix",
+        "mean": 21.0,
+        "season_total": 294.1
+      },
+      {
+        "name": "Matthew Stafford",
+        "mean": 20.8,
+        "season_total": 295.4
+      },
+      {
+        "name": "Brock Purdy",
+        "mean": 20.7,
+        "season_total": 310.6
+      },
+      {
+        "name": "Patrick Mahomes",
+        "mean": 20.6,
+        "season_total": 288.2
+      },
+      {
+        "name": "Kyler Murray",
+        "mean": 20.0,
+        "season_total": 279.4
+      }
+    ],
+    "RB": [
+      {
+        "name": "Tyjae Spears",
+        "mean": 11.1,
+        "season_total": 155.0
+      },
+      {
+        "name": "Zach Charbonnet",
+        "mean": 9.7,
+        "season_total": 135.4
+      },
+      {
+        "name": "Justice Hill",
+        "mean": 8.6,
+        "season_total": 120.5
+      },
+      {
+        "name": "Alvin Kamara",
+        "mean": 8.1,
+        "season_total": 114.0
+      },
+      {
+        "name": "Samaje Perine",
+        "mean": 7.2,
+        "season_total": 100.9
+      },
+      {
+        "name": "Brian Robinson Jr.",
+        "mean": 6.8,
+        "season_total": 94.7
+      },
+      {
+        "name": "Keaton Mitchell",
+        "mean": 6.7,
+        "season_total": 94.4
+      },
+      {
+        "name": "Tyler Allgeier",
+        "mean": 6.6,
+        "season_total": 93.1
+      }
+    ],
+    "WR": [
+      {
+        "name": "Khalil Shakir",
+        "mean": 12.3,
+        "season_total": 172.5
+      },
+      {
+        "name": "De'Zhaun Stribling",
+        "mean": 11.5,
+        "season_total": 161.6
+      },
+      {
+        "name": "Josh Downs",
+        "mean": 11.3,
+        "season_total": 158.6
+      },
+      {
+        "name": "Romeo Doubs",
+        "mean": 10.8,
+        "season_total": 151.3
+      },
+      {
+        "name": "Deebo Samuel Sr.",
+        "mean": 10.7,
+        "season_total": 168.3
+      },
+      {
+        "name": "Jalen Coker",
+        "mean": 10.6,
+        "season_total": 147.8
+      },
+      {
+        "name": "Rashid Shaheed",
+        "mean": 10.4,
+        "season_total": 146.7
+      },
+      {
+        "name": "Jerry Jeudy",
+        "mean": 10.1,
+        "season_total": 140.9
+      },
+      {
+        "name": "Kayshon Boutte",
+        "mean": 10.0,
+        "season_total": 139.9
+      },
+      {
+        "name": "Tre Tucker",
+        "mean": 10.0,
+        "season_total": 139.7
+      }
+    ],
+    "TE": [
+      {
+        "name": "T.J. Hockenson",
+        "mean": 11.4,
+        "season_total": 159.2
+      },
+      {
+        "name": "Isaiah Likely",
+        "mean": 11.2,
+        "season_total": 156.7
+      },
+      {
+        "name": "Hunter Henry",
+        "mean": 10.8,
+        "season_total": 156.5
+      },
+      {
+        "name": "Juwan Johnson",
+        "mean": 10.5,
+        "season_total": 147.6
+      },
+      {
+        "name": "Kenyon Sadiq",
+        "mean": 10.5,
+        "season_total": 146.8
+      }
+    ]
+  },
   "one_week_adds": [],
   "this_week": {
     "opponent": "Ducky Irving Squad",
-    "win_prob": 63.6
+    "win_prob": 63.0
   }
 }
