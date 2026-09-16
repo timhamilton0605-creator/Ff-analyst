@@ -1,27 +1,27 @@
 {
   "week": 2,
   "avg_wins": {
-    "1": 11.05,
-    "2": 8.18,
-    "3": 1.95,
-    "4": 0.91,
-    "5": 9.56,
-    "6": 4.44,
+    "1": 10.57,
+    "2": 8.23,
+    "3": 2.43,
+    "4": 0.86,
+    "5": 4.83,
+    "6": 9.18,
     "7": 0.23,
     "8": 13.77,
-    "9": 5.82,
-    "10": 13.09
+    "9": 5.77,
+    "10": 13.14
   },
   "playoff_odds": {
-    "1": 100.0,
-    "2": 96.7,
-    "3": 2.5,
-    "4": 0.3,
-    "5": 98.5,
-    "6": 36.9,
-    "7": 0.0,
+    "1": 99.8,
+    "2": 96.0,
+    "3": 6.1,
+    "4": 0.2,
+    "5": 42.6,
+    "6": 98.0,
+    "7": 0.1,
     "8": 100.0,
-    "9": 65.2,
+    "9": 57.1,
     "10": 100.0
   },
   "my_roster": [
@@ -41,7 +41,7 @@
       "this_week_proj": 23.6,
       "opponent": "NYJ",
       "matchup": 8.3,
-      "season_total": 471.8
+      "season_total": 340.4
     },
     {
       "name": "Jaxon Smith-Njigba",
@@ -50,7 +50,7 @@
       "this_week_proj": 23.6,
       "opponent": "ARI",
       "matchup": 11.4,
-      "season_total": 380.8
+      "season_total": 333.7
     },
     {
       "name": "Breece Hall",
@@ -59,7 +59,7 @@
       "this_week_proj": 14.6,
       "opponent": "GB",
       "matchup": 10.9,
-      "season_total": 291.2
+      "season_total": 210.1
     },
     {
       "name": "Christian McCaffrey",
@@ -68,7 +68,7 @@
       "this_week_proj": 17.9,
       "opponent": "MIA",
       "matchup": 33.7,
-      "season_total": 193.2
+      "season_total": 247.0
     },
     {
       "name": "Rashee Rice",
@@ -77,7 +77,7 @@
       "this_week_proj": 12.9,
       "opponent": "IND",
       "matchup": 27.0,
-      "season_total": 138.6
+      "season_total": 177.2
     },
     {
       "name": "Bhayshul Tuten",
@@ -86,7 +86,7 @@
       "this_week_proj": 12.7,
       "opponent": "DEN",
       "matchup": 35.1,
-      "season_total": 137.2
+      "season_total": 9.8
     },
     {
       "name": "Tucker Kraft",
@@ -104,7 +104,7 @@
       "this_week_proj": 11.1,
       "opponent": "BUF",
       "matchup": 21.2,
-      "season_total": 119.0
+      "season_total": 8.5
     },
     {
       "name": "Kaelon Black",
@@ -113,7 +113,7 @@
       "this_week_proj": 10.4,
       "opponent": "MIA",
       "matchup": 33.7,
-      "season_total": 112.0
+      "season_total": 8.0
     },
     {
       "name": "KC Concepcion",
@@ -122,7 +122,7 @@
       "this_week_proj": 5.5,
       "opponent": "TB",
       "matchup": 6.1,
-      "season_total": 109.2
+      "season_total": 7.8
     },
     {
       "name": "Jake Bates",
@@ -131,7 +131,7 @@
       "this_week_proj": 7.7,
       "opponent": "BUF",
       "matchup": 9.0,
-      "season_total": 98.0
+      "season_total": 106.9
     },
     {
       "name": "Tony Pollard",
@@ -140,7 +140,7 @@
       "this_week_proj": 3.1,
       "opponent": "PHI",
       "matchup": 8.7,
-      "season_total": 61.6
+      "season_total": 4.4
     },
     {
       "name": "Texans D/ST",
@@ -302,9 +302,8 @@
       }
     ]
   },
-  "one_week_adds": [],
   "this_week": {
     "opponent": "Special Agent Gibbs",
-    "win_prob": 84.5
+    "win_prob": 81.6
   }
 }
