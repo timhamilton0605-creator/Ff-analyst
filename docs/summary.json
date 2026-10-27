@@ -1,164 +1,164 @@
 {
-  "week": 7,
+  "week": 8,
   "avg_wins": {
-    "1": 10.11,
-    "2": 6.53,
-    "3": 8.75,
-    "4": 8.89,
-    "5": 3.47,
-    "6": 4.11,
-    "7": 3.89,
-    "8": 6.32,
-    "9": 7.25,
-    "10": 9.69
+    "1": 9.68,
+    "2": 6.31,
+    "3": 7.11,
+    "4": 7.89,
+    "5": 4.64,
+    "6": 2.66,
+    "7": 6.36,
+    "8": 11.34,
+    "9": 7.32,
+    "10": 5.69
   },
   "playoff_odds": {
-    "1": 100.0,
-    "2": 75.0,
-    "3": 96.8,
-    "4": 97.0,
-    "5": 5.3,
-    "6": 6.8,
-    "7": 4.0,
-    "8": 47.2,
-    "9": 70.6,
-    "10": 97.4
+    "1": 99.8,
+    "2": 71.5,
+    "3": 78.0,
+    "4": 92.0,
+    "5": 13.6,
+    "6": 0.0,
+    "7": 54.8,
+    "8": 100.0,
+    "9": 70.8,
+    "10": 19.7
   },
   "my_roster": [
     {
       "name": "Jaxon Smith-Njigba",
       "position": "WR",
-      "season_avg": 28.3,
-      "this_week_proj": 19.8,
-      "opponent": "KC",
-      "matchup": 3.5,
-      "season_total": 328.4
-    },
-    {
-      "name": "Christian McCaffrey",
-      "position": "RB",
-      "season_avg": 20.3,
-      "this_week_proj": 21.0,
-      "opponent": "ATL",
-      "matchup": 14.1,
-      "season_total": 289.7
+      "season_avg": 28.9,
+      "this_week_proj": 25.1,
+      "opponent": "CHI",
+      "matchup": 11.5,
+      "season_total": 378.0
     },
     {
       "name": "Caleb Williams",
       "position": "QB",
-      "season_avg": 20.2,
-      "this_week_proj": 19.0,
-      "opponent": "NE",
-      "matchup": 17.0,
-      "season_total": 213.0
+      "season_avg": 20.8,
+      "this_week_proj": 14.6,
+      "opponent": "SEA",
+      "matchup": 12.4,
+      "season_total": 185.1
+    },
+    {
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "season_avg": 20.6,
+      "this_week_proj": 20.6,
+      "opponent": "BYE",
+      "matchup": null,
+      "season_total": 144.0
     },
     {
       "name": "Christian Watson",
       "position": "WR",
-      "season_avg": 20.1,
-      "this_week_proj": 26.2,
-      "opponent": "DET",
-      "matchup": 22.1,
-      "season_total": 330.2
+      "season_avg": 18.8,
+      "this_week_proj": 16.2,
+      "opponent": "CAR",
+      "matchup": 11.4,
+      "season_total": 244.9
+    },
+    {
+      "name": "Braelon Allen",
+      "position": "RB",
+      "season_avg": 15.3,
+      "this_week_proj": 17.2,
+      "opponent": "LV",
+      "matchup": 15.6,
+      "season_total": 181.3
     },
     {
       "name": "Mike Evans",
       "position": "WR",
       "season_avg": 15.0,
-      "this_week_proj": 16.4,
-      "opponent": "ATL",
-      "matchup": 14.4,
-      "season_total": 221.5
+      "this_week_proj": 15.0,
+      "opponent": "BYE",
+      "matchup": null,
+      "season_total": 90.0
     },
     {
       "name": "Breece Hall",
       "position": "RB",
       "season_avg": 14.5,
-      "this_week_proj": 16.0,
-      "opponent": "MIA",
-      "matchup": 15.1,
-      "season_total": 43.5
-    },
-    {
-      "name": "Patrick Mahomes",
-      "position": "QB",
-      "season_avg": 14.3,
-      "this_week_proj": 10.0,
-      "opponent": "SEA",
-      "matchup": 12.4,
-      "season_total": 43.0
+      "this_week_proj": 16.3,
+      "opponent": "LV",
+      "matchup": 15.6,
+      "season_total": 157.6
     },
     {
       "name": "Stefon Diggs",
       "position": "WR",
       "season_avg": 13.9,
-      "this_week_proj": 13.9,
-      "opponent": "BYE",
-      "matchup": null,
-      "season_total": 69.4
+      "this_week_proj": 14.8,
+      "opponent": "PHI",
+      "matchup": 14.1,
+      "season_total": 173.0
     },
     {
-      "name": "Braelon Allen",
+      "name": "Chase McLaughlin",
+      "position": "K",
+      "season_avg": 13.3,
+      "this_week_proj": 13.3,
+      "opponent": "ATL",
+      "matchup": null,
+      "season_total": 133.3
+    },
+    {
+      "name": "Emanuel Wilson",
       "position": "RB",
-      "season_avg": 13.6,
-      "this_week_proj": 15.0,
-      "opponent": "MIA",
-      "matchup": 15.1,
-      "season_total": 160.5
-    },
-    {
-      "name": "Ladd McConkey",
-      "position": "WR",
-      "season_avg": 9.8,
-      "this_week_proj": 9.8,
-      "opponent": "BYE",
-      "matchup": null,
-      "season_total": 39.0
+      "season_avg": 12.6,
+      "this_week_proj": 11.7,
+      "opponent": "CHI",
+      "matchup": 12.8,
+      "season_total": 37.9
     },
     {
       "name": "Tucker Kraft",
       "position": "TE",
-      "season_avg": 9.4,
-      "this_week_proj": 12.2,
-      "opponent": "DET",
-      "matchup": 22.1,
-      "season_total": 154.2
+      "season_avg": 10.2,
+      "this_week_proj": 13.2,
+      "opponent": "CAR",
+      "matchup": 15.3,
+      "season_total": 163.8
     },
     {
-      "name": "Tyler Loop",
-      "position": "K",
-      "season_avg": 8.4,
-      "this_week_proj": 9.6,
-      "opponent": "CIN",
-      "matchup": 10.0,
-      "season_total": 119.2
+      "name": "DJ Moore",
+      "position": "WR",
+      "season_avg": 9.3,
+      "this_week_proj": 11.6,
+      "opponent": "BAL",
+      "matchup": 16.5,
+      "season_total": 37.3
     },
     {
-      "name": "Ravens D/ST",
+      "name": "Texans D/ST",
       "position": "D/ST",
-      "season_avg": 7.5,
-      "this_week_proj": 5.4,
-      "opponent": "CIN",
-      "matchup": 5.0,
-      "season_total": 73.3
-    },
-    {
-      "name": "Tyler Allgeier",
-      "position": "RB",
-      "season_avg": 5.8,
-      "this_week_proj": 5.4,
-      "opponent": "DEN",
-      "matchup": 12.8,
-      "season_total": 5.8
+      "season_avg": 7.0,
+      "this_week_proj": 7.0,
+      "opponent": "BYE",
+      "matchup": null,
+      "season_total": 77.0
     },
     {
       "name": "Kaelon Black",
       "position": "RB",
-      "season_avg": 3.3,
-      "this_week_proj": 3.4,
-      "opponent": "ATL",
-      "matchup": 14.1,
-      "season_total": 19.8
+      "season_avg": 4.4,
+      "this_week_proj": 4.4,
+      "opponent": "BYE",
+      "matchup": null,
+      "season_total": 30.7
+    },
+    {
+      "name": "Emmett Johnson",
+      "position": "RB",
+      "season_avg": 2.7,
+      "this_week_proj": 2.4,
+      "opponent": "DEN",
+      "matchup": 12.2,
+      "season_total": 5.4
     }
   ],
   "free_agents": {
@@ -166,153 +166,153 @@
       {
         "name": "Jacoby Brissett",
         "mean": 24.3,
-        "season_total": 283.1
-      },
-      {
-        "name": "Trevor Lawrence",
-        "mean": 17.2,
-        "season_total": 251.6
+        "season_total": 274.7
       },
       {
         "name": "Tyler Shough",
         "mean": 15.5,
-        "season_total": 235.8
+        "season_total": 233.7
       },
       {
         "name": "Jalen Hurts",
         "mean": 15.5,
-        "season_total": 201.3
+        "season_total": 185.8
       },
       {
-        "name": "Kyler Murray",
-        "mean": 14.2,
-        "season_total": 151.7
+        "name": "Patrick Mahomes",
+        "mean": 14.3,
+        "season_total": 200.0
+      },
+      {
+        "name": "Jaxson Dart",
+        "mean": 13.5,
+        "season_total": 121.5
       }
     ],
     "RB": [
       {
-        "name": "Zach Charbonnet",
-        "mean": 10.7,
-        "season_total": 85.8
+        "name": "Dameon Pierce",
+        "mean": 15.0,
+        "season_total": 135.0
+      },
+      {
+        "name": "De'Von Achane",
+        "mean": 8.2,
+        "season_total": 82.0
       },
       {
         "name": "Kimani Vidal",
         "mean": 6.7,
-        "season_total": 88.1
+        "season_total": 81.2
       },
       {
         "name": "TreVeyon Henderson",
         "mean": 6.6,
-        "season_total": 82.5
+        "season_total": 80.2
+      },
+      {
+        "name": "Jonah Coleman",
+        "mean": 6.2,
+        "season_total": 67.4
+      },
+      {
+        "name": "Dylan Sampson",
+        "mean": 5.4,
+        "season_total": 48.6
       },
       {
         "name": "Samaje Perine",
-        "mean": 5.6,
-        "season_total": 74.6
-      },
-      {
-        "name": "Tyjae Spears",
         "mean": 5.3,
-        "season_total": 69.6
+        "season_total": 74.8
       },
       {
         "name": "Rico Dowdle",
         "mean": 5.2,
-        "season_total": 60.4
-      },
-      {
-        "name": "Brian Robinson Jr.",
-        "mean": 5.2,
-        "season_total": 94.8
-      },
-      {
-        "name": "Keaton Mitchell",
-        "mean": 4.8,
-        "season_total": 75.3
+        "season_total": 69.8
       }
     ],
     "WR": [
       {
-        "name": "Malik Washington",
-        "mean": 12.1,
-        "season_total": 146.6
-      },
-      {
         "name": "Rashod Bateman",
         "mean": 11.4,
-        "season_total": 136.2
+        "season_total": 130.2
+      },
+      {
+        "name": "Deebo Samuel Sr.",
+        "mean": 10.6,
+        "season_total": 134.6
+      },
+      {
+        "name": "Devaughn Vele",
+        "mean": 9.9,
+        "season_total": 155.1
+      },
+      {
+        "name": "Ladd McConkey",
+        "mean": 9.8,
+        "season_total": 107.2
+      },
+      {
+        "name": "Terry McLaurin",
+        "mean": 9.2,
+        "season_total": 110.4
       },
       {
         "name": "Josh Downs",
         "mean": 8.3,
-        "season_total": 120.3
-      },
-      {
-        "name": "DeMario Douglas",
-        "mean": 8.2,
-        "season_total": 125.1
+        "season_total": 115.7
       },
       {
         "name": "KC Concepcion",
         "mean": 7.8,
-        "season_total": 102.1
+        "season_total": 118.5
       },
       {
         "name": "Chris Godwin Jr.",
         "mean": 7.7,
-        "season_total": 108.3
-      },
-      {
-        "name": "Ryan Flournoy",
-        "mean": 7.2,
-        "season_total": 109.8
+        "season_total": 107.3
       },
       {
         "name": "Khalil Shakir",
-        "mean": 7.1,
-        "season_total": 111.7
+        "mean": 7.2,
+        "season_total": 105.2
       },
       {
-        "name": "Keenan Allen",
-        "mean": 6.9,
-        "season_total": 109.6
-      },
-      {
-        "name": "Rashid Shaheed",
-        "mean": 6.5,
-        "season_total": 92.3
+        "name": "Caleb Douglas",
+        "mean": 7.2,
+        "season_total": 89.4
       }
     ],
     "TE": [
       {
+        "name": "Brenton Strange",
+        "mean": 11.6,
+        "season_total": 141.1
+      },
+      {
+        "name": "Dalton Kincaid",
+        "mean": 10.2,
+        "season_total": 133.2
+      },
+      {
         "name": "Jake Ferguson",
         "mean": 9.1,
-        "season_total": 117.1
+        "season_total": 108.0
+      },
+      {
+        "name": "Mark Andrews",
+        "mean": 6.8,
+        "season_total": 98.3
       },
       {
         "name": "Chig Okonkwo",
         "mean": 6.6,
-        "season_total": 83.1
-      },
-      {
-        "name": "Hunter Henry",
-        "mean": 6.3,
-        "season_total": 104.0
-      },
-      {
-        "name": "Michael Mayer",
-        "mean": 6.3,
-        "season_total": 110.8
-      },
-      {
-        "name": "Cade Otton",
-        "mean": 6.3,
-        "season_total": 87.6
+        "season_total": 76.3
       }
     ]
   },
   "this_week": {
-    "opponent": "The Better Business Burrow",
-    "win_prob": 76.0
+    "opponent": "Romper Stomper",
+    "win_prob": 66.2
   }
 }
